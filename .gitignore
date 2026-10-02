@@ -1,0 +1,209 @@
+# ============================================================
+# .NET / ASP.NET Core
+# ============================================================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Bb]uilds/
+artifacts/
+
+# ============================================================
+# JetBrains Rider / IntelliJ
+# ============================================================
+
+.idea/
+*.sln.iml
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/
+
+# ============================================================
+# .NET tooling
+# ============================================================
+
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ============================================================
+# Test results / coverage
+# ============================================================
+
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.*
+.coverage/
+.coverage-results/
+
+# ============================================================
+# Entity Framework / local database files
+# ============================================================
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# IMPORTANT:
+# Do NOT ignore EF Core migrations.
+# Migrations should be committed to Git.
+
+# ============================================================
+# ASP.NET Core local configuration / secrets
+# ============================================================
+
+appsettings.Local.json
+appsettings.Development.local.json
+appsettings.*.local.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# User secrets / sensitive files
+secrets.json
+*.secrets.json
+
+# Certificates / private keys
+*.pfx
+*.p12
+*.key
+*.pem
+
+# ============================================================
+# Docker
+# ============================================================
+
+# Local Docker override files
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# Keep Dockerfiles committed.
+# Keep .dockerignore committed.
+
+# ============================================================
+# Kubernetes / Helm local secrets
+# ============================================================
+
+*.secret.yaml
+*.secret.yml
+secrets.yaml
+secrets.yml
+
+# Keep normal Kubernetes manifests committed.
+
+# ============================================================
+# Terraform local/generated state
+# ============================================================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl.backup
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform variable files may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Keep .terraform.lock.hcl committed.
+
+# ============================================================
+# OS generated files
+# ============================================================
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+
+# ============================================================
+# NuGet
+# ============================================================
+
+*.nuget.props
+*.nuget.targets
+
+# ============================================================
+# Publish output
+# ============================================================
+
+publish/
+Publish/
+*.Publish.xml
+*.pubxml.user
+
+# ============================================================
+# Azure / deployment local artifacts
+# ============================================================
+
+.azure/
+.azuredevops/
+
+# ============================================================
+# GitHub Actions
+# ============================================================
+
+# DO NOT ignore .github/
+# GitHub Actions workflows must be committed.
